@@ -1,0 +1,123 @@
+body{
+    background-color: #222831;
+    margin: 0;
+    padding: 0;
+    color: #EEEEEE;
+    font-family: "Montserrat", serif;
+}
+
+.header{
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-around;
+    align-items: center;
+    height: 15vh;
+}
+
+.header-logo{
+    width: 100px;
+}
+
+.ancora {
+    font-size: 25px;
+    text-decoration: none;
+    color: #EEEEEE;
+    margin-left: 40px;
+    position: relative; /* Adicione isso aqui */
+}
+
+.ancora::after {
+    content: "";
+    width: 0%;
+    height: 4px;
+    background-color: #FFF;
+    position: absolute;
+    bottom: -5px; /* Certifique-se de ajustar a posição */
+    left: 0;
+    transition: 0.8s all;
+}
+
+.ancora:hover::after{
+    width: 100%;
+}
+.hero-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-text{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.h1-hero{
+    font-weight: 800;
+    width: 40vw;
+    font-size: 80px;
+    background: linear-gradient(45deg, #00ADB5, #393E46 ,#1F6F8B ,#ADE8F4       );
+    background-size: 400% 100%;
+    animation: degrade 4s linear infinite alternate-reverse;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@keyframes degrade{
+    0%{
+        background-position-x: 0%;
+    }
+    100%{
+        background-position: 100%;
+    }
+}
+
+.p-hero{
+    font-size: 25px;
+    font-weight: 400;
+    width: 40vw;
+    position: relative;
+    bottom: 100px;
+}
+
+.button-hero{
+    width: 30vw;
+    height: 9vh;
+    position: relative;
+    bottom: 50px;
+    border-radius: 100px;
+    background: #EEEEEE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    transition: 1s all;
+}
+
+.button-hero-icon{
+    width: 50px;
+}
+.button-hero-text{
+    font-family: "Montserrat", serif;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 800;
+    color: black;
+}
+
+.button-hero:hover{
+    background-color: #00ADB5;
+    transform: scale(1.05);
+}
+
+.hero-image{
+    width: 550px;
+}
+
+.arrow-down-hero{
+    width: 30px;
+    position: relative;
+    right: 100px;
+}
+
