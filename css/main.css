@@ -15,7 +15,7 @@ body{
 }
 
 .header-logo{
-    width: 100px;
+    width: 300px;
 }
 
 .ancora {
@@ -55,7 +55,6 @@ body{
 }
 .h1-hero{
     font-weight: 800;
-    width: 40vw;
     font-size: 80px;
     background: linear-gradient(45deg, #00ADB5, #393E46 ,#1F6F8B ,#ADE8F4       );
     background-size: 400% 100%;
@@ -121,3 +120,86 @@ body{
     right: 100px;
 }
 
+.about{
+    height: 100vh;
+    margin-top: 50px;
+}
+.about-1{
+    background-color: #00ADB5;
+    height: 30vh;
+}
+
+.one-about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.one-about > h2{
+    color: black;
+    font-size: 40px;
+}
+.about-one-text> p{
+    color: black;
+    font-weight: 500;
+    width: 80vw;
+    font-size: 23px;
+    position: relative;
+    bottom: 30px;
+}
+
+.about-one-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+}
+.sobre-qrcode, .sobre-temporeal{
+    background-color: rgb(0,0,0,0.30);
+    height: 45vh;
+    width: 35vw;
+    margin-top: 70px;
+}
+
+.titulo-sobre, .titulo-sobre-clock{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.titulo-sobre > img{
+    width: 70px;
+    margin-left: 10px;
+}
+
+.titulo-sobre-clock > img{
+    width: 60px;
+    margin-left: 10px;
+}
+
+.titulo-sobre > h3, .titulo-sobre-clock > h3{
+    font-size: 30px;
+    color: #00ADB5;
+}
+
+.qrcode-texto, .clock-text{
+    display: flex;
+    align-items: center;
+}
+.qrcode-texto > p, .clock-text > p{
+    margin-left: 30px;
+    font-size: 25px;
+    width: 30vw;
+}
+
+.arrow{
+    position: relative;
+    top: 40px;
+    left: 720px;
+    width: 30px;
+}
