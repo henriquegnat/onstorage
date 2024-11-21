@@ -1,4 +1,8 @@
-body{
+*{
+    scroll-behavior: smooth;
+}
+
+    body{
     background-color: #222831;
     margin: 0;
     padding: 0;
@@ -12,6 +16,8 @@ body{
     justify-content: space-around;
     align-items: center;
     height: 15vh;
+    margin: 0;
+    padding: 0;
 }
 
 .header-logo{
@@ -92,6 +98,8 @@ body{
     align-items: center;
     gap: 15px;
     transition: 1s all;
+    margin: 0;
+    padding: 0;
 }
 
 .button-hero-icon{
@@ -202,4 +210,115 @@ body{
     top: 40px;
     left: 720px;
     width: 30px;
+}
+
+.team{
+    height: 100vh;
+    margin-top: 30px;
+}
+
+.team-texts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.icon-text-team{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.icon-text-team > h2{
+    color: #00ADB5;
+    font-size: 40px;
+}
+
+.text-team > p{
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+.imgs-teams{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap: 300px;
+}
+.imgs-teams2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    gap: 400px; 
+}
+.team-image{
+    width: 120px;
+}
+
+.bru,.eliude.gui,.henrique,.rafa{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.team-person-text{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0;
+    margin-top: 10px;
+}
+.eliude{
+    position: relative;
+    left: 70px;
+}
+
+.eliude-text{
+    position: relative;
+    right: 50px;
+}
+
+.eliude-text-function{
+    position: relative;
+    right: 30px;
+}
+
+.gui{
+    position: relative;
+    left: 30px;
+}
+.gui-text{
+    position: relative;
+    right: 70px;
+}
+
+.function-team{
+    margin: 0;
+    margin-top: 5px;
+    font-size: 17px;
+}
+
+footer{
+    height: 30vh;
+    background-color: #00ADB5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+footer > img{
+    width: 300px;
+    margin: 0;
+}
+
+.footer-text-1{
+    font-size: 20px;
+    color: black;
+    font-weight: 600;
 }
